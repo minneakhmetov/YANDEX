@@ -1,0 +1,14 @@
+yandex:
+  content:
+    cut:
+      limit: 10
+springdoc:
+  swagger-ui:
+    path: "/swagger-ui.html"
+    enabled: true
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:identifier.sqlite
+  jooq:
+    sql-dialect: SQLITE
